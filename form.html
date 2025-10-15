@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="./reponse.html" name="Biodata" target="_blank" method="get">
+<fieldset>
+    <legend>Biodata</legend>
+    <label for="name">name:</label>
+    <input type="text" id="name" name="name" 
+    placeholder="Enter  your name" required>
+    <br><br>
+    <label for="password">password:</label>
+    
+    <input type="password" id="password name=pass" required>
+    <br><br>
+    <label for="dob">dob:</label>
+    <input for="date" id="dob" name="dob" required>
+        <br><br>
+        <label for="email">email</label>
+         <input type="email" id="email" name="email" required>
+         <br><br>
+         <label for="tel"> phone:</label>
+         <input type="tel" id="tel" name="tel" required>
+         <br><br>
+         <label for="address">address:</label>
+         <textarea name="text" id="add" rows="5 coloums=30"></textarea>
+         <br><br>
+         <label for="gender">Gender:</label>
+         <input type="radio" id="male" name="gender" checked>
+         <label for="male">male:</label>
+         <input type="radio" id="female" name="gender">
+         <label for="female">female:</label>
+         <br><br>
+         <label for="check"> vehicles u have:</label>
+        <input type="checkbox" id="check" name="vehicles1">
+        <label for="check">car:</label>
+        <input type="checkbox" id="check" name="vehicles2"  checked>
+        <label for="checkbox">bike:</label>
+        <br><br>
+        <label for="select">select your programing language</label>
+        <select name="select" id="select">
+            <option value="select your lang">select your lang:</option>
+            <optgroup  label="programing language">
+        <option value="c++">c++:</option>
+        <option value="html">html:</option>
+        </optgroup>
+        <optgroup label="frontend technology">
+        <option value="CSS">css:</option>
+        <option value="java script">java script:</option>
+        </optgroup>
+        
+        </select>
+        <br><br>
+        <label for="url">url:</label>
+        <input type="url" id="url" name="url"
+        placeholder="Enter your website address" required>
+        <br><br>
+        <label for="file">file upload:</label>
+        <input type="file" id="file" name="file" required> 
+        <br><br>
+        <label for="attempt"> Attempt:</label>
+        <input type="number" id="attempt" name="attempt" min="1 max
+        10" required>
+        <br><br>
+        <label for="appoint">appointment:
+            <input type="time" id="appoint" name="appoint"required>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </label>
+    </input>
+</fieldset>
+
+    </form>
+
+</body>
+</html>
