@@ -6,76 +6,74 @@
     <title>Form</title>
 </head>
 <body>
-    
-    <form action="./reponse.html" name="Biodata" target="_blank" method="get">
-<fieldset>
-    <legend>Biodata</legend>
-    <label for="name">name:</label>
-    <input type="text" id="name" name="name" 
-    placeholder="Enter  your name" required>
-    <br><br>
-    <label for="password">password:</label>
-    
-    <input type="password" id="password name=pass" required>
-    <br><br>
-    <label for="dob">dob:</label>
-    <input for="date" id="dob" name="dob" required>
-        <br><br>
-        <label for="email">email</label>
-         <input type="email" id="email" name="email" required>
-         <br><br>
-         <label for="tel"> phone:</label>
-         <input type="tel" id="tel" name="tel" required>
-         <br><br>
-         <label for="address">address:</label>
-         <textarea name="text" id="add" rows="5 coloums=30"></textarea>
-         <br><br>
-         <label for="gender">Gender:</label>
-         <input type="radio" id="male" name="gender" checked>
-         <label for="male">male:</label>
-         <input type="radio" id="female" name="gender">
-         <label for="female">female:</label>
-         <br><br>
-         <label for="check"> vehicles u have:</label>
-        <input type="checkbox" id="check" name="vehicles1">
-        <label for="check">car:</label>
-        <input type="checkbox" id="check" name="vehicles2"  checked>
-        <label for="checkbox">bike:</label>
-        <br><br>
-        <label for="select">select your programing language</label>
-        <select name="select" id="select">
-            <option value="select your lang">select your lang:</option>
-            <optgroup  label="programing language">
-        <option value="c++">c++:</option>
-        <option value="html">html:</option>
-        </optgroup>
-        <optgroup label="frontend technology">
-        <option value="CSS">css:</option>
-        <option value="java script">java script:</option>
-        </optgroup>
-        
+    <form action="./response.html" name="Bio-Data" target="_blank" method="get">
+      <fieldset>
+        <legend>Bio-Data</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your name" required />
+        <br />
+        <br />
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password" required />
+        <br />
+        <br />
+        <label for="DOB">DOB:</label>
+        <input type="date" name="DOB" id="DOB" required />
+        <br />
+        <br />
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" required />
+        <br /><br />
+        <label for="tel">Phone:</label>
+        <input type="tel" name="tel" id="tel" required />
+        <br /><br />
+        <label for="add">Address:</label>
+        <textarea name="text" id="add" rows="5" cols="30"></textarea>
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" checked />
+        <label for="male">Male </label>
+        <input type="radio" name="female" id="gender" />
+        <label for="female">Female</label>
+        <br /><br />
+        <label for="check">Vehicles u have:</label>
+        <input type="checkbox" id="check" name="Vehicles1" />
+        <label for="check">splendor</label>
+        <input type="checkbox" id="check" name="Vehicles2" />
+        <label for="check">G-wagon</label>
+        <br /><br />
+        <label for="select">Select your Programming language</label>
+        <select name="select" id="">
+          <option>Select your language</option>
+
+          <optgroup label="Programming language">
+            <option value="C">C++</option>
+            <option value="JAVA">JAVA</option>
+            <option value="C++">C++</option>
+            <option value="Python">Python</option>
+          </optgroup>
+          <optgroup label="Frontend">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+          </optgroup>
         </select>
         <br><br>
-        <label for="url">url:</label>
-        <input type="url" id="url" name="url"
-        placeholder="Enter your website address" required>
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" placeholder="Enter your website address" required>
         <br><br>
-        <label for="file">file upload:</label>
-        <input type="file" id="file" name="file" required> 
+        <label for="file">File Upload:</label>
+        <input type="file" name="file" id="file">
         <br><br>
-        <label for="attempt"> Attempt:</label>
-        <input type="number" id="attempt" name="attempt" min="1 max
-        10" required>
+        <label for="attempt">Attempt:</label>
+        <input type="number" name = "attempt" id="attempt" required min="1" max="10">
         <br><br>
-        <label for="appoint">appointment:
-            <input type="time" id="appoint" name="appoint"required>
-            <br><br>
-            <input type="submit">
-            <input type="reset">
-        </label>
-    </input>
-</fieldset>
-
+        <label for="appointment">Appointment:</label>
+        <input type="time" name="appointment" id="appointment" required>
+        <br><br>
+        <input type="submit">
+        <input type="reset  ">
+      </fieldset>
     </form>
 
 </body>
